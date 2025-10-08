@@ -201,6 +201,17 @@ body {
 
 }
 
+.card-container {
+    display: flex;
+    max-width: 100%;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    /* debug */
+    background-color: darkgoldenrod;
+    width: 1000px;
+    height: 800px;
+}
 
 /* HEADER */
  header {

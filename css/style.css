@@ -6,7 +6,28 @@
     box-sizing: border-box;
 }
 
+img {
+    max-width: 100%;
+}
+
 /* DEBUG */
 body {
     background-color: aqua;
 }
+
+
+/* COMMON */
+/* Typography */
+
+body {
+    font-family: sans-serif;
+}
+
+/* CONTAINERS */
+
+
+/* HEADER */
+
+/* MAIN */
+
+/* FOOTER */

@@ -10,6 +10,10 @@ img {
     max-width: 100%;
 }
 
+.img-60 {
+    width: 90%;
+}
+
 /* DEBUG */
 body {
     /* background-color: aqua; */
@@ -86,6 +90,7 @@ h1 {
     color: #ffffff;
     text-align: center;
     text-decoration: none;
+    padding: 5px;
 }
 
 .button-white {
@@ -177,7 +182,7 @@ body {
     margin: 0 auto;
     max-width: 80%;
     margin-top: 44px;
-    margin-bottom: 65px;
+    margin-bottom: 200px;
 }
 
 .hero-top {
@@ -255,8 +260,14 @@ margin: 35px;
 .col-30 {
     flex: 1;
     max-width: 30%;
-    height: 50%;
     border: 1px solid #eee;
+    height: 800px;
+}
+ /* variante */
+.col-big .col-30 {
+    border: none;
+    margin-top:  30px;
+    height: auto;
 }
 
 
@@ -290,6 +301,7 @@ margin: 35px;
     max-width: 100%;
     flex-direction: column;
     width: 100%;
+    border: 1px solid #eee;
 }
 .partner-box {
     display: flex;

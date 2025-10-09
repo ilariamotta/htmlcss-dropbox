@@ -43,6 +43,10 @@ hero i {
     gap: 25px;
  }
 
+ li {
+    padding: 8px 0px;
+ }
+
 .flex-justify {
     display: flex;
     justify-content: space-between;

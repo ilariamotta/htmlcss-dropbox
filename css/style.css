@@ -119,6 +119,7 @@ hr .col-others {
     width: 20%;
 }
 
+
 h2 {
     font-size: 2rem;
     font-weight: 600;
@@ -360,15 +361,14 @@ margin: 35px;
 }
 
 .bottom-footer {
-    background-color: cadetblue;
+
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
     max-width: 100%;
-    /* debug */
-    border: 1px solid white;
+
     width: 100%;
-    min-height: 50%;
+
 }
 
 /* HEADER */
@@ -399,14 +399,25 @@ card {
 .top-footer .col-30 {
     height: auto;
     font-size: 12px;
-    color: white;
     border: none;
 }
 
 .top-footer li {
     line-height: 5px;
 }
+
 footer {
     background-color: black;
     width: 100%;
+    color: white;
+    margin: 30px 0;
+    padding: 30px 0;
+}
+
+.bottom-footer .col-30 {
+    flex: 1;
+    max-width: 30%;
+    padding: 30px 0px;
+    height: fit-content;
+    border: none;
 }

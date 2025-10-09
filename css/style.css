@@ -130,8 +130,12 @@ h3 {
 }
 
 h4 {
-    font-size: 0.8rem;
+    font-size: 0.9rem;
     font-weight: 700;
+}
+
+h5 {
+    font-size: 0.9rem;
 }
 
 /* Typography */
@@ -346,17 +350,12 @@ margin: 35px;
 /* footer */
 
 .top-footer {
-    display: flex;
+    display: flex
+;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    max-width: 100%;
-    /* debug */
-    background-color: darkgrey;
-    border: 1px solid white;
     width: 100%;
-    min-height: 50%;
-
 
 }
 
@@ -386,11 +385,6 @@ margin: 35px;
 
 /* MAIN */
 
-
-.titolo cards {
-
-}
-
 card {
     width: 280px;
     height: 430px;
@@ -404,8 +398,14 @@ card {
 
 .top-footer .col-30 {
     height: auto;
+    font-size: 12px;
+    color: white;
+    border: none;
 }
 
+.top-footer li {
+    line-height: 5px;
+}
 footer {
     background-color: black;
     width: 100%;
